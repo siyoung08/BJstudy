@@ -6,7 +6,6 @@ public class num1{
 		Scanner in =new Scanner(System.in);
 		
 		
-		
 		int a = in.nextInt();
 		String b = in.next();
 		

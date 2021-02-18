@@ -11,7 +11,7 @@ public class num9498{
 		
 		sc.close();
 		
-		if (score>90) {
+		if (score>=90) {
 			System.out.println("A");
 		}
 		
@@ -25,7 +25,7 @@ public class num9498{
 			System.out.println("D");
 	}
 		else {
-			System.out.println("E");
+			System.out.println("F");
 		}
 }
 }

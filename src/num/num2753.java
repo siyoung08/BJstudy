@@ -3,30 +3,19 @@ package num;
 import java.util.Scanner;
 public class num2753{
 	public static void main(String args[]){
-		Scanner sc =new Scanner(System.in);
+		Scanner in =new Scanner(System.in);
 		
 		
-		int score = sc.nextInt();
+		int year = in.nextInt();
+		in.close();
 		
-		
-		sc.close();
-		
-		if (score>=90) {
-			System.out.println("A");
+		if(year % 4==0) {
+		if (year % 400==0) System.out.println("1");
+		else if (year % 100==0) System.out.println("0");
+		else System.out.println("1");
 		}
+		else System.out.println("0");
 		
-		else if (score >=80) {
-			System.out.println("B");	
-		}
-		else if (score>=70) {
-			System.out.println("C");
-		}
-		else if (score>=60) {
-			System.out.println("D");
-	}
-		else {
-			System.out.println("F");
-		}
 }
 }
 

@@ -1,7 +1,7 @@
 package num;
 
 import java.util.Scanner;
-public class num2741{
+public class num2742{
 	public static void main(String args[]){
 		Scanner sc =new Scanner(System.in);
 		
@@ -9,7 +9,7 @@ public class num2741{
 		int n = sc.nextInt();
 		sc.close();
 		
-		for(int i=1; i<=n; i++){
+		for(int i=n; i>0; i--){
 			System.out.println(i);
 		}
 	}

@@ -6,6 +6,7 @@ public class num10809 {
  
     public static void main(String args[]) {
         Scanner in= new Scanner(System.in);
+       in.close();
        
       int[]arr=new int[26];
       

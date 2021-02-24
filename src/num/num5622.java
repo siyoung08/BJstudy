@@ -6,9 +6,9 @@ public class num5622 {
  
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
- 
+        
 		String A =in.next();
-		
+		in.close();
 		int count =0;
 		int k =A.length();
 		

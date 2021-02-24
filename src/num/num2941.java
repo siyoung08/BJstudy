@@ -9,6 +9,7 @@ public class num2941 {
         
 		String str = in.next();
 		int count = 0;
+		in.close();
 		
 		for(int i=0; i<str.length(); i++) {
 			char ch = str.charAt(i);

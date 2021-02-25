@@ -26,6 +26,7 @@ public class num1011 {
 			}
 			else {
 				System.out.println(max * 2 + 1);
+				in.close();
 			}
 			
 		}
